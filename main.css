@@ -160,15 +160,15 @@ body * {
 
 /******** HEADINGS ***************/
 
-h1, h3 {
+header, h3 {
 	padding: 1%;
 	font-size: 3em;
 	font-family: "TitilliumText22L", "Arial", "Helvetica", sans-serif; font-size: 1.2em;
 	color: #CF995F;
 }
 
-h1 {
-	font-size: 2em; /* h1 on this font is pretty big, but still needed a small kick up */
+header {
+	font-size: 2em;
 }
 
 /******** IMAGES ***************/
@@ -185,7 +185,8 @@ img.self {
 
 /******** LINKS ***************/
 
-p a {
+article a {
+	display: block;
 	color: #FF83FF; /* made this one up; edited from color scheme */
 	border: 1px solid #96897B;
 }
